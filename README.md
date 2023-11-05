@@ -1,14 +1,13 @@
 # Kali NetHunter Kernel Builder (m52xq) (WIP)
 
-<!--![Kali NetHunter](https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-project/raw/master/images/nethunter-git-logo.png)-->
-
 ## Installation
 
 Clone this repository into your kernel source tree, e.g.
 
 ``` bash
-cd android_kernel_oneplus_sm8150/
-git clone https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-kernel
+git clone https://github.com/Simon1511/android_kernel_samsung_sm7325
+cd android_kernel_samsung_sm7325
+git clone https://github.com/RebertiCS/m52xq_nethunter_kernel_builder kali-nethunter-kernel
 ```
 
 **cd** into `kali-nethunter-kernel/`, open `config` and make sure that you are happy with all the settings.
