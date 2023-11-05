@@ -13,7 +13,7 @@ export ARCH=arm64
 export SUBARCH=arm64
 
 # Enable ccache to speed up compilation
-CCACHE=false
+CCACHE=true
 
 # Clang
 export CLANG_ROOT=${TD}/clang-10.0
@@ -81,7 +81,7 @@ IMAGE_NAME=Image.gz-dtb
 ### IMAGE_NAME=Image.lz4-dtb
 
 # Set to "true" to enable dtbo
-DO_DTBO=false
+DO_DTBO=true
 
 # Set to "true" to enable dtb
 DO_DTB=false
