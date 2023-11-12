@@ -6,19 +6,20 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=NetHunter Kernel for M52XQ
+kernel.string=NetHunter Kernel for M526BR
 do.devicecheck=1
 do.modules=1
 do.systemless=0 #Never use this for NetHunter kernels as it prevents us from writing to /lib/modules
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=m52xq
+device.name2=m526BR
 supported.versions=
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/bootdevice/by-name/boot;
+block=/dev/block/bootdevice/by-name/vendor_boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 
