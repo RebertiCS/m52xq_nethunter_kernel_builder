@@ -239,10 +239,10 @@ function get_dependencies() {
                		sudo zypper in -y $i
        		done
 	else
-        	sudo dnf update
+        	sudo apt update
 		for i in $SUSE_DEPENDE;
 		do
-                	sudo dnf install -y $i
+                	sudo apt install -y $i
         	done
 	fi
 }
