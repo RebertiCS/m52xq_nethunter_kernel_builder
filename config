@@ -140,7 +140,7 @@ SUSE_DEPEND="axel bc ccache curl dtc pandoc libncurses6 lynx lz4 make ncurses-de
 CONFIG_TOOL=menuconfig
 
 # Additional compiler arguments
-MAKE_ARGS=""
+MAKE_ARGS="CONFIG_NO_ERROR_ON_MISMATCH=y"
 
 ####################################################################
 # Overwrite any of the above settings with this local config file: #
