@@ -76,7 +76,7 @@ ANY_ARCHIVE="anykernel$LOCALVERSION.zip"
 
 # Image Type (Only ONE of the following (lz4/gz) can be enabled!)
 # GZ Image (Uncomment to Enable)
-IMAGE_NAME=Image.gz-dtb
+#IMAGE_NAME=Image.gz-dtb
 # lz4 image (Uncomment to Enable)
 ### IMAGE_NAME=Image.lz4-dtb
 
