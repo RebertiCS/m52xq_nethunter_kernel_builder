@@ -1,4 +1,4 @@
-# Kali NetHunter Kernel Builder (m52xq) (WIP)
+# Kali NetHunter Kernel Builder (m52xq)
 
 ## Installation
 
