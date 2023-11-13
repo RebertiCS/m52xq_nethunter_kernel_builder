@@ -2,17 +2,9 @@
 
 ## Installation
 
-### Kernel Src
-
-Donwload from official Samsung OSS Website
-
-https://opensource.samsung.com/main
-
-
-### Kernel Builder
-Clone this repository into your kernel source tree, e.g.
-
 ``` bash
+git clone https://github.com/Simon1511/android_kernel_samsung_sm7325.git -b lineage-20
+cd android_kernel_samsung_sm7325/
 git clone https://github.com/RebertiCS/m52xq_nethunter_kernel_builder kali-nethunter-kernel
 ```
 

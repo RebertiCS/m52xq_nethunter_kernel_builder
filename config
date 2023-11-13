@@ -76,13 +76,12 @@ ANY_ARCHIVE="anykernel$LOCALVERSION.zip"
 
 # Image Type (Only ONE of the following (lz4/gz) can be enabled!)
 # GZ Image (Uncomment to Enable)
-#IMAGE_NAME=Image.gz-dtb
-IMAGE_NAME=Image
+IMAGE_NAME=Image.gz-dtb
 # lz4 image (Uncomment to Enable)
 ### IMAGE_NAME=Image.lz4-dtb
 
 # Set to "true" to enable dtbo
-DO_DTBO=true
+DO_DTBO=false
 
 # Set to "true" to enable dtb
 DO_DTB=false
@@ -140,7 +139,7 @@ SUSE_DEPEND="axel bc ccache curl dtc pandoc libncurses6 lynx lz4 make ncurses-de
 CONFIG_TOOL=menuconfig
 
 # Additional compiler arguments
-MAKE_ARGS="CONFIG_NO_ERROR_ON_MISMATCH=y"
+MAKE_ARGS=""
 
 ####################################################################
 # Overwrite any of the above settings with this local config file: #
