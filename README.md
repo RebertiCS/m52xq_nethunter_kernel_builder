@@ -1,11 +1,11 @@
-# Kali NetHunter Kernel Builder (m52xq)
+# Kali NetHunter Kernel Builder (m52xq) (WIP)
 
 ## Installation
 
 ``` bash
-git clone https://github.com/Simon1511/android_kernel_samsung_sm7325.git -b lineage-20
+git clone https://github.com/BlackMesa123/android_kernel_samsung_sm7325.git -b sep-14.1/ksu
 cd android_kernel_samsung_sm7325/
-git clone https://github.com/RebertiCS/m52xq_nethunter_kernel_builder kali-nethunter-kernel
+git clone https://github.com/RebertiCS/m52xq_nethunter_kernel_builder nethunter
 ```
 
 ### Dependencies
@@ -18,7 +18,7 @@ sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-d
 
 ## Misc
 
-**cd** into `kali-nethunter-kernel/`, open `config` and make sure that you are happy with all the settings.
+**cd** into `nethunter/`, open `config` and make sure that you are happy with all the settings.
 
 Important: Changes should not be made in this file. Copy it accross to `local.config` and delete everything except the parameters you would like to change. Change those parameters and save it.
 

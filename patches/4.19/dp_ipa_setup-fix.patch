@@ -1,0 +1,19 @@
+--- ../../../drivers/staging/qca-wifi-host-cmn/dp/wifi3.0/dp_ipa.c	2024-01-05 11:52:43.576495750 -0300
++++ /home/rebertics/Downloads/android_kernel_samsung_sm7325-sep-14.1-ksu/drivers/staging/qca-wifi-host-cmn/dp/wifi3.0/dp_ipa.c	2023-11-14 14:12:31.000000000 -0300
+@@ -1286,8 +1286,6 @@
+ 		RX_PKT_TLVS_LEN + L3_HEADER_PADDING;
+ }
+ 
+-#pragma clang diagnostic push
+-#pragma clang diagnostic ignored "-Weverything"
+ QDF_STATUS dp_ipa_setup(struct cdp_soc_t *soc_hdl, uint8_t pdev_id,
+ 			void *ipa_i2w_cb, void *ipa_w2i_cb,
+ 			void *ipa_wdi_meter_notifier_cb,
+@@ -1420,7 +1418,6 @@
+ 
+ 	return QDF_STATUS_SUCCESS;
+ }
+-#pragma clang diagnostic pop
+ 
+ /**
+  * dp_ipa_setup_iface() - Setup IPA header and register interface
