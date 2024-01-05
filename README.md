@@ -14,8 +14,7 @@ KernelSU:
 git clone https://github.com/BlackMesa123/android_kernel_samsung_sm7325.git -b sep-15/ksu
 cd android_kernel_samsung_sm7325/
 git clone --recurse-submodules https://github.com/RebertiCS/m52xq_nethunter_kernel_builder nethunter
-cd ./nethunter
-ln -s $PWD/KernelSU/kernel $PWD/../drivers/kernelsu
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s main
 ```
 
 ### Dependencies
