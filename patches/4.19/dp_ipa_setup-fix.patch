@@ -1,5 +1,5 @@
---- ../../../drivers/staging/qca-wifi-host-cmn/dp/wifi3.0/dp_ipa.c	2024-01-05 11:52:43.576495750 -0300
-+++ /home/rebertics/Downloads/android_kernel_samsung_sm7325-sep-14.1-ksu/drivers/staging/qca-wifi-host-cmn/dp/wifi3.0/dp_ipa.c	2023-11-14 14:12:31.000000000 -0300
+--- a/drivers/staging/qca-wifi-host-cmn/dp/wifi3.0/dp_ipa.c
++++ b/drivers/staging/qca-wifi-host-cmn/dp/wifi3.0/dp_ipa.c
 @@ -1286,8 +1286,6 @@
  		RX_PKT_TLVS_LEN + L3_HEADER_PADDING;
  }
